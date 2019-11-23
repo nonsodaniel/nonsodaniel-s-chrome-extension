@@ -1,32 +1,61 @@
-
-.navbar-dark{
-    background: #ffffff ;
-    border: 0 !important;
-    color: black !important;
+html, body{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 384px;
+    min-height: 180px;
 }
-
-.navbar-brand{
-    font-size: 20px;
-    color: #000000 !important;
-    font-weight: bold;
+h1{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    color: #2f5876;
 }
-
-#showcaseImg{
-    width: 90%;
-    margin-left: 60px;
-    height: 75vh
+a:link, a:visited{
+    color: #000000;
+    outline: 0;
+    text-decoration: none;
 }
-
-#testimonial{
-    background: #f1f1f1;
-    padding: 50px 0 30px 0;
-    text-align: center;
-    margin-top: 40px;
+img{
+    width: 30px;
 }
-
-#toknow{
-    margin-top: 90px;
+.modal-header{
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
 }
-#googlehome{
-    margin-top: 90px;
+.modal-content{
+    padding: 0 22px;
+}
+.modal-icons{
+    border-top:0.5px solid #dadada;
+    height: 50px;
+    width: 100%;
+}
+.logo{
+    padding: 16px;
+}
+.logo-icon{
+    vertical-align: text-bottom;
+    margin-right: 12px;
+}
+.version{
+    color: #444;
+    font-size: 18px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 22px;
+}
+.flex{
+    opacity: 1;
+    transition: opacit 0.2s ease-in-out;
+    width: 120px;
+}
+.flex:hover{
+    opacity: 0.4;
+}
+.flex .fa{
+    font-size: 40px;
+    color: #2f5876;
 }

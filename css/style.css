@@ -1,0 +1,32 @@
+
+.navbar-dark{
+    background: #ffffff ;
+    border: 0 !important;
+    color: black !important;
+}
+
+.navbar-brand{
+    font-size: 20px;
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+#showcaseImg{
+    width: 90%;
+    margin-left: 60px;
+    height: 75vh
+}
+
+#testimonial{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#toknow{
+    margin-top: 90px;
+}
+#googlehome{
+    margin-top: 90px;
+}
